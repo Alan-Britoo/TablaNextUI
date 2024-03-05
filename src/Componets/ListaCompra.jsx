@@ -18,10 +18,14 @@ import {
   Select,
   SelectItem,
 } from "@nextui-org/react";
-import { ChevronDownIcon, DeleteIcon, EditIcon, EyeIcon, PlusIcon, SearchIcon } from './Icons.jsx';
-import { VerticalDotsIcon } from "./VerticalDotsIcon.jsx";
+import { EyeIcon } from "./EyeIcon";
+import { VerticalDotsIcon } from "./VerticalDotsIcon";
+import { SearchIcon } from "./SearchIcon";
+import { ChevronDownIcon } from "./ChevronDownIcon";
 import { columns, users, statusOptions } from "./data";
 import { capitalize } from "./Utils";
+import { DeleteIcon } from "./DeleteIcon";
+import { EditIcon } from "./EditIcon";
 import { CSVLink } from "react-csv";
 import { saveAs } from "file-saver";
 import Papa from "papaparse";
@@ -45,7 +49,7 @@ const INITIAL_VISIBLE_COLUMNS = [
   "actions",
 ];
 
-export default function App() {
+export default function List() {
   const iconClasses =
     "text-xl text-default-500 pointer-events-none flex-shrink-0";
   const [filterValue, setFilterValue] = React.useState("");

@@ -1,6 +1,7 @@
 import {Button, ButtonGroup} from "@nextui-org/react";
 import './App.css'
 import Appp from "./Componets/tabla";
+// import ListCompra from "./Componets/ListaCompra";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         Warning
       </Button> 
       <Appp/>
-     
+     {/* <ListCompra/> */}
     </>
   )
 }
