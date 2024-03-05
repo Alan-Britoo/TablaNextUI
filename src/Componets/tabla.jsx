@@ -18,8 +18,8 @@ import {
   Select,
   SelectItem,
 } from "@nextui-org/react";
-import { ChevronDownIcon, DeleteIcon, EditIcon, EyeIcon, PlusIcon, SearchIcon } from './Icons.jsx';
-import { VerticalDotsIcon } from "./VerticalDotsIcon.jsx";
+import { ChevronDownIcon, DeleteIcon, EditIcon, EyeIcon, PlusIcon, SearchIcon, VerticalDotsIcon } from './Icons.jsx';
+
 import { columns, users, statusOptions } from "./data";
 import { capitalize } from "./Utils";
 import { CSVLink } from "react-csv";
